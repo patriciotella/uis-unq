@@ -1,12 +1,12 @@
-package tests
+package test.java
 
 import java.util.LinkedList
 import org.junit.Test
 
 import static org.junit.Assert.*
-import Model.Pais
-import Model.LugarDeInteres
 import java.util.HashMap
+import main.java.LugarDeInteres
+import main.java.Pais
 
 class PaisTest {
 	
@@ -21,6 +21,6 @@ class PaisTest {
 		caracteristicas.put("Casa de gobierno", "Rosada")
 		caracteristicas.put("Comida tipica", "Empanadas")
 		
-		var pais = new Pais("Argentina", caracteristicas, lugaresDeInteres, conexiones)
+//		var pais = new Pais("Argentina", caracteristicas, lugaresDeInteres, conexiones)
 	}
 }

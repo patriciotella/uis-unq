@@ -1,6 +1,5 @@
-package Model
+package main.java
 
-import Model.LugarDeInteres
 
 class Banco extends LugarDeInteres {
 	

@@ -1,10 +1,10 @@
-package tests
+package test.java
 
-import Model.Villano
 import java.util.LinkedList
 import org.junit.Test
 
 import static org.junit.Assert.*
+import main.java.Villano
 
 class VillanoTest {
 
